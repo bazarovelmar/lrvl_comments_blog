@@ -1,0 +1,46 @@
+.header_block {
+    background: url('../../icons/bg_header.png') center (center/cover) no-repeat;
+    height: 100%;
+
+}
+
+.header {
+        
+    display: flex;
+    justify-content: space-between;
+
+
+
+    &__contacts {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        a {
+            font-weight: 500;
+            color: black;
+            text-decoration: none;
+        }
+        p {
+            margin-top: 18px;
+            font-weight: 500;
+            text-decoration: underline;
+        }
+
+    }
+    &__comment {
+        margin-top: 25px;
+        font-weight: 300;
+    }
+    
+    &__logo {
+        img {
+            margin-top: 23px;
+            margin-bottom: 39px;
+        }
+        
+    }
+
+
+
+
+}

@@ -1,0 +1,84 @@
+.articles {
+    background: url('../../icons/bg.png') center (center/cover) no-repeat;
+    max-width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+
+}
+.blog {
+    
+
+    display: flex;
+    flex-direction: column;
+    
+    &__info {
+        padding-top: 40px;
+        display: flex;
+        justify-content: start;
+        &_date {
+            margin-left: 40px;
+            font-weight: 300;
+        }
+        &_name {
+            font-weight: 700;
+        }
+
+    }
+    &__text {
+        font-weight: 300;
+        margin-top: 16px
+    }
+    &__line {
+        margin-top: 30px;
+        width: 100%;
+        height: 1px;
+        background-color: rgb(122, 121, 121);
+    }
+
+    &__form {
+        margin-top: 26px;
+        
+        &_title {
+            font-weight: 400;
+            font-size: 24px;
+        }
+        &_label {
+            font-weight: 300;
+            font-size: 14px;
+            margin-top: 29px;
+            width: 460px;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 15px;
+             
+        }
+        &_input {
+            width: 460px;
+            
+        }
+        #name {
+            border-radius: 3px;
+            border: none;
+            font-size: 14px;
+            font-weight: 300;
+        }
+        #body {
+            background-color: #eeeeee;
+            resize: none;
+            border-radius: 3px;
+            border-color: black;
+            font-size: 14px;
+            font-weight: 300;
+        }
+        &_btn {
+            margin-top: 10px;
+            width: 133px;
+            height: 42px;
+            border-radius: 3px;
+            border-color: black;
+            font-weight: 300;
+            margin-left: 326px;
+        }
+    }
+   
+}

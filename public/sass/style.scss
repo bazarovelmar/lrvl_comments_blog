@@ -1,0 +1,15 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    
+    margin: 24 auto;
+    position: relative;
+    
+}
+
+
+@import 'blocks/header';
+@import 'blocks/blog';
+@import 'blocks/footer';

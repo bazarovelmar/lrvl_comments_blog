@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    &__info {
+        margin-top: 41px;
+        margin-left: 20px;
+        font-size: 12px;
+        &_number {
+            margin-top: 11px;
+            font-weight: 500;
+            text-decoration: none;
+            color: black;
+        }
+        &_address {
+            margin-top: -15px;
+            font-weight: 500;
+            
+        }
+        &_lic {
+            font-weight: 300;
+            
+        }
+    }
+
+}
